@@ -2,3 +2,6 @@ geopandas
 gunicorn
 flask
 folium
+matplotlib
+mapclassify
+
