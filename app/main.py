@@ -3,7 +3,7 @@ import geopandas as gpd
 import folium
 
 app = Flask(__name__)
-gdf = gpd.read_file("../deploy_data/gdf_w_clusters.shp")
+gdf = gpd.read_file("deploy_data/gdf_w_clusters.shp")
 
 @app.route('/')
 def home():
